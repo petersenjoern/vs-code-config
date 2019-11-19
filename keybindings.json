@@ -1,0 +1,79 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.action.codeAction",
+        "args": {
+            "kind": "refactor.extract.function"
+        }
+    }
+    ,{
+        "key": "ctrl+shift+k",
+        "command": "editor.action.codeAction",
+        "args": {
+            "kind": "refactor.extract.function"
+        }
+    }
+    ,{
+        "key": "ctrl+shift+j",
+        "command": "python.refactorExtractMethod"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "python.refactorExtractVariable"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.terminal.moveToLineEnd"
+    },
+    {
+        "key": "alt+right",
+        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "; right",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "end",
+        "command": "-cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorWordEndLeft"
+    },
+    {
+        "key": "; left",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "workbench.action.terminal.focus"
+    }
+]
