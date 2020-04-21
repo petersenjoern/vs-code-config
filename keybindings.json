@@ -75,5 +75,18 @@
     {
         "key": "ctrl+u",
         "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.terminal.kill"
     }
 ]
